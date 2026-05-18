@@ -68,3 +68,46 @@
 // getUserRole({name:'shan'})
 
 
+// //Polymorphism
+
+// class Person {
+//     getSleep(){
+//         console.log('This is from Person Class');
+//     }
+// }
+
+// class Student extends Person{
+//     getSleep(){
+//         console.log('This is from Student Class');
+//     }
+// }
+
+// class Teacher extends Person{
+//     getSleep(){
+//         console.log('This is from Teacher Class');
+//     }
+// }
+
+
+// const person1 = new Person()
+// const person2 = new Student()
+// const person3 = new Teacher()
+
+
+// const getPersonInfo = (param:Person) =>{
+//     return param.getSleep()
+// }
+
+
+// getPersonInfo(person3)
+
+
+//Abstraction
+
+interface MediaPlayer {
+    play():void,
+    pause():void,
+    stop():void,
+}
+
+
